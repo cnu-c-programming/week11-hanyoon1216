@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-struct Point {
+typedef struct {
     int x;
     int y;
-};
+} Point;
 
 int main() {
-    struct Point p = {1, 2};
+    Point p = {1, 2};
 
     print("%d %d\n", p.x, p.y);
 
