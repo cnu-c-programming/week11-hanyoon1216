@@ -8,7 +8,7 @@ typedef struct {
 int main() {
     Point p = {1, 2};
 
-    print("%d %d\n", p.x, p.y);
+    printf("%d %d\n", p.x, p.y);
 
     return 0;
 }
